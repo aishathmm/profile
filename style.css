@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+body {
+  background-color: #25283D;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 40px;
+  color: #8F3985;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  color: #A675A1;
+  font-weight: bold;
+
+}
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: #D18FB0;
+}
+
+a {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+  text-decoration: none;
+  color:azure;
+}
+
+a:hover {
+  color: #77567A;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+div {
+  border-top: 1px solid black;
+  border-radius: 8px;
+  padding: 30px,
+}
+
+.card-white {
+  background-color: #EFD9CE;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin: 500px auto;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-white {
+  background-color: #B68CB8;
+  color:azure;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
